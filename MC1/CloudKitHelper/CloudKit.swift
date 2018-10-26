@@ -23,7 +23,7 @@ class CloudKit {
         storyRecord["time"] = story.time
         savetoPublicDatabase(record: storyRecord)
     }
-    
+    //a
     func savetoPublicDatabase(record: CKRecord) {
         let container = CKContainer.default()
         let database = container.publicCloudDatabase
